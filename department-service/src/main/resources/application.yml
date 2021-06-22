@@ -6,3 +6,7 @@ spring:
     name: DEPARTMENT-SERVICE
   zipkin:
     base-url: http://127.0.0.1:9411/
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/employees_department
+    username: root
